@@ -1,0 +1,39 @@
+.kalkulator{
+	margin:0 auto;
+	text-align:center;
+	padding-top:100px;
+	width:400px;
+}
+.row{
+	display:flex;
+}
+.kalkulatorscreen{
+	width:100%;
+	height:100px;
+	background-color:#252525;
+	color:#fff;
+	text-align:right;
+	font-size:36px;
+	padding:0px 20px;
+	box-sizing:border-box;
+}
+.AC, .zero{
+	width:50%;
+}
+button{
+	height:80px;
+	color:white;
+	background-color:grey;
+	border:1px solid black;
+	width:25%;
+	font-size:32px;
+}
+.operator, .equal-sign{
+	background-color:orange;
+}
+button:hover{
+	background-color:darkgrey;
+}
+.operator:hover, .equal-sign:hover{
+	background-color:darkorange;
+}
